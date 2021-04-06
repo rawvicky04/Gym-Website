@@ -68,6 +68,10 @@ public class AllClientDetailsServlet extends HttpServlet {
 				String lname = rs.getString("Last_Name");
 				String email = rs.getString("Email");
 				//String pass = rs.getString("Password");
+								out.println("<hr>");
+				out.println("<hr>");
+				out.println("<hr>");
+				out.println("<br>");
 				out.println("<h3>");
 				out.println(id + "     " + fname + "     " + lname + "     " + email);
 				out.println("</h3>");
